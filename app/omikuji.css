@@ -39,3 +39,21 @@ section {
     display: flex;
     justify-content: flex-end;
 }
+
+button {
+    border: 4px double #006f91;
+    padding: 4px;
+    color: white;
+    background-color: rgb(0, 51, 118);
+    display: inline;
+    margin-left: 50px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.twitterIcon {
+    display: inline;
+    margin: 10px;
+}
