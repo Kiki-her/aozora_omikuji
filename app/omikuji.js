@@ -39,7 +39,7 @@ export default function Omikuji() {
           もう一冊引く
         </button>
         <a
-          href={`https://twitter.com/share?hashtags=青空おみくじ&text=${targetBook["line"]}--『${targetBook["title"]}』${targetBook["author"]}`}
+          href={`https://twitter.com/share?url=https://aozora-omikuji.vercel.app/?hashtags=青空おみくじ&text=${targetBook["line"]}--『${targetBook["title"]}』${targetBook["author"]}`}
           rel="nofollow"
           target="_blank"
         >
